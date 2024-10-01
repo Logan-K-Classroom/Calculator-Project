@@ -1,0 +1,32 @@
+// Apply the Java plugin
+plugins {
+    id 'java'
+}
+
+// Set the Java version (optional, but recommended)
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+// Define dependencies
+dependencies {
+    // Use JUnit 5 for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+// Enable JUnit 5 platform
+test {
+    useJUnitPlatform()
+}
+
+// Define tasks if needed (optional)
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+// Repositories to fetch dependencies from
+repositories {
+    mavenCentral()
+}
