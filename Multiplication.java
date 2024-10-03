@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Multiplication {
     public static void main(String[] args) {
@@ -6,6 +5,6 @@ public class Multiplication {
         double firstNumber = AutoGraderInput.getFirstNumber();
         double secondNumber = AutoGraderInput.getSecondNumber();
 
-        
+
     }
 }

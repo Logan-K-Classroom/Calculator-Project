@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Division {
     public static void main(String[] args) {
@@ -6,6 +5,6 @@ public class Division {
         double firstNumber = AutoGraderInput.getFirstNumber();
         double secondNumber = AutoGraderInput.getSecondNumber();
 
-        
+
     }
 }
