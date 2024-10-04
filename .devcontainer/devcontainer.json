@@ -1,0 +1,8 @@
+{
+  "name": "Universal Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "extensions": [
+    "vscjava.vscode-java-pack"
+  ],
+  "postCreateCommand": "java -version"
+}
