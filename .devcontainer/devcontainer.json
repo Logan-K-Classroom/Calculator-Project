@@ -2,7 +2,8 @@
   "name": "Universal Dev Container",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "extensions": [
-    "vscjava.vscode-java-pack"
+    "vscjava.vscode-java-pack",
+    "ms-vsliveshare.vsliveshare"
   ],
   "postCreateCommand": "java -version"
 }
